@@ -2,13 +2,25 @@
 <html>
 <head>
   <title>Registration</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <header>
+    <h1><%= link_to t('common.title'), root_path %></h1>
+  </header>
+  <div><!-- basic flash message support for devise -->
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+  </div>
+  <div id="main">
+    <%= yield %>
+  </div>
+  <footer>
+    <%= link_to t('common.data_attribution'), data_attribution_path %>
+    <%= link_to t('common.privacy_policy'), privacy_path %>
+    <%= link_to t('common.license'), license_path %>
+  </footer>
 </body>
 </html>

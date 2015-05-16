@@ -1,0 +1,46 @@
+html * {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: white;
+  color: black;
+
+  header {
+    background-color: #46576b;
+    color: white;
+    padding: .5em;
+    padding-left: 5%;
+
+    a:link, a:visited, a:focus, a:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  div {
+    padding-left: 5%;
+  }
+  div#main {
+      margin-top: 1em;
+  }
+
+  footer {
+    background-color: #46576b;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: .5em;
+
+    a:link, a:visited, a:focus, a:hover {
+      color: white;
+      text-decoration: none;
+      margin: 0 2em;
+    }
+  }
+
+}

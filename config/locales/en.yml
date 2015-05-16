@@ -20,4 +20,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  welcome: Welcome
+  common:
+    title: San Jose Road Closure Notification
+    welcome: Welcome
+    data_attribution: data attribution
+    license: license
+    privacy_policy: privacy policy
