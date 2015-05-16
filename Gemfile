@@ -5,6 +5,9 @@ ruby '2.2.2'
 gem 'rails', '4.2.1'
 gem 'pg'
 gem 'puma'
+group :production do
+  gem 'rails_12factor'  # for Heroku
+end
 
 gem 'devise'
 gem 'exception_notification'
