@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  # using the built-in devise routes to start with
+  devise_for :users
+
   root 'welcome#index'
   get 'data_attribution' => 'welcome#data_attribution', as: :data_attribution
   get 'license' => 'welcome#license', as: :license

@@ -2,3 +2,6 @@ es:
   common:
     title: San Jose Road Closure Notification
     welcome: Bienvenida
+    what: Registre su dirección de correo electrónico con nosotros para recibir notificaciones de cierres de carreteras en su vecindario.
+  email:
+    sign_up: Contratar
