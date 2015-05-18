@@ -24,8 +24,8 @@ en:
     title: San Jose Road Closure Notification
     welcome: Welcome
     what: Register your email address with us to receive notifications of road closures in your neighborhood.
-    data_attribution: data attribution
-    license: license
-    privacy_policy: privacy policy
+    data_attribution: Data Attribution
+    license: License
+    privacy_policy: Privacy Policy
   email:
     sign_up: Sign up
